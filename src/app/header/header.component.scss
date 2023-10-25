@@ -1,0 +1,34 @@
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background: #0C3C60;
+    border-bottom: 1px solid #072136;
+    color: #fff;
+    &-inner {
+        padding: 5px;
+        a {
+            color: inherit;
+            &:not(.navbar-active) {
+                text-decoration: none;
+            }
+        }
+    }
+    &-list {
+        list-style: none;        
+        padding: 0;
+        a {
+            &:hover {
+                color: #c7c7c7;
+            }
+        }
+    }
+    &-logo {
+        font-size: 20px;
+        margin: 5px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: normal;
+    }
+}

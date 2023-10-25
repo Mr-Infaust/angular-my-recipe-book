@@ -1,0 +1,9 @@
+<div class="recipe-list-inner">
+    <app-recipe-item class="recipe-item-outer" *ngFor="let recipe of recipes" [recipe]="recipe" (click)="getSelectedRecipe(recipe)"></app-recipe-item> 
+</div>   
+<div class="recipe-detail">
+    <div class="recipe-detail-inner" *ngIf="selectedRecipeHeadline">
+        <h2>{{selectedRecipeHeadline}}</h2>
+        <p>{{selectedRecipeText}}</p>
+    </div>
+</div>

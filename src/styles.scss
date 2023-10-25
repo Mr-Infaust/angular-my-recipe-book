@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    color: #333;
+}
+
+.d-flex {
+    display: flex;
+    &.flex-centered {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+h2, h3 {
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #0C3C60;
+}
+
+a {
+    color: inherit;
+}
